@@ -3,7 +3,7 @@
 <img src="img/fn.png" width="600">
 
 > **Graph where our fractal nodes are connected.**
-> 1.  After partitioning the original graph into subgraphs, we aggregate the low and high-frequency information of each subgraph to create \textit{fractal nodes}.
+> 1.  After partitioning the original graph into subgraphs, we aggregate the low and high-frequency information of each subgraph to create *fractal nodes*.
 > 2. Then, we propagate the information to the original nodes (see our proposed $\mathsf{FN}$). 
 > 3. We also support the long-distance interactions (orange dashed lines) between fractal nodes (see our proposed $\mathsf{FN}_M$).
 
