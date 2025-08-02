@@ -1,4 +1,4 @@
-# Fractal-Inspired Message Passing Neural Networks with Fractal Nodes
+# Are Graph Transformers Necessary? Efficient Long-Range Message Passing with Fractal Nodes in MPNNs
 
 <img src="img/fn.png" width="600">
 
