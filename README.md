@@ -91,6 +91,22 @@ python -m train.peptides_func device 0 fractal.alpha_type vc metis.n_patches 32 
 # GatedGCN + FN_M
 python -m train.peptides_struct device 0 fractal.alpha_type sc metis.n_patches 32 model.gMHA_type MLPMixer model.gnn_type ResGatedGraphConv fractal.hpf True model.nlayer_gnn 4 model.nlayer_mlpmixer 2  model.hidden_size 128 fractal.alpha_init zero metis.num_hops 1 metis.drop_rate 0.2
 ```
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{choi2026fractal,
+  title     = {Are Graph Transformers Necessary? Efficient Long-Range Message Passing with Fractal Nodes in MPNNs},
+  author    = {Choi, Jeongwhan and Park, Seungjun and Park, Sumin and Cho, Sung-Bae and Park, Noseong},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume    = {40},
+  number    = {25},
+  pages     = {20553--20561},
+  year      = {2026},
+  doi       = {10.1609/aaai.v40i25.39191}
+}
 ```
 
 ## Related Work from Our Group
