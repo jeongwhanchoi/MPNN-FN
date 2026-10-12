@@ -91,6 +91,7 @@ python -m train.peptides_func device 0 fractal.alpha_type vc metis.n_patches 32 
 # GatedGCN + FN_M
 python -m train.peptides_struct device 0 fractal.alpha_type sc metis.n_patches 32 model.gMHA_type MLPMixer model.gnn_type ResGatedGraphConv fractal.hpf True model.nlayer_gnn 4 model.nlayer_mlpmixer 2  model.hidden_size 128 fractal.alpha_init zero metis.num_hops 1 metis.drop_rate 0.2
 ```
+```
 
 ## Related Work from Our Group
 
