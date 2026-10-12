@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite our paper."
+title: "MPNN-FN"
+authors:
+  - family-names: Choi
+    given-names: Jeongwhan
+repository-code: "https://github.com/jeongwhanchoi/MPNN-FN"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Are Graph Transformers Necessary? Efficient Long-Range Message Passing with Fractal Nodes in MPNNs"
+  authors:
+    - family-names: Choi
+      given-names: Jeongwhan
+    - family-names: Park
+      given-names: Seungjun
+    - family-names: Park
+      given-names: Sumin
+    - family-names: Cho
+      given-names: Sung-Bae
+    - family-names: Park
+      given-names: Noseong
+  collection-title: "Proceedings of the AAAI Conference on Artificial Intelligence"
+  volume: 40
+  issue: 25
+  start: 20553
+  end: 20561
+  year: 2026
+  doi: "10.1609/aaai.v40i25.39191"
