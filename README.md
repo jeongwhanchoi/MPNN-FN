@@ -1,5 +1,12 @@
 # Are Graph Transformers Necessary? Efficient Long-Range Message Passing with Fractal Nodes in MPNNs
 
+[![AAAI 2026 Oral](https://img.shields.io/badge/AAAI%202026-Oral-blue)](https://ojs.aaai.org/index.php/AAAI/article/view/39191)
+[![arXiv](https://img.shields.io/badge/arXiv-2511.13010-b31b1b.svg)](https://arxiv.org/abs/2511.13010)
+
+Official PyTorch implementation of **"Are Graph Transformers Necessary? Efficient Long-Range Message Passing with Fractal Nodes in MPNNs"** (AAAI 2026, Oral).
+
+[Jeongwhan Choi](https://jeongwhanchoi.com), Seungjun Park, Sumin Park, Sung-Bae Cho, Noseong Park
+
 <img src="img/fn.png" width="600">
 
 > **Graph where our fractal nodes are connected.**
@@ -7,7 +14,9 @@
 > 2. Then, we propagate the information to the original nodes (see our proposed $\mathsf{FN}$). 
 > 3. We also support the long-distance interactions (orange dashed lines) between fractal nodes (see our proposed $\mathsf{FN}_M$).
 
+## TL;DR
 
+Fractal nodes are a plug-in for any MPNN. Each fractal node summarizes one METIS subgraph and coexists with the original nodes, which gives shortcut paths for long-range messages and reduces over-squashing. MPNNs with fractal nodes match or beat graph Transformers on graph-level benchmarks while keeping the linear cost of message passing.
 
 ## Setup
 
