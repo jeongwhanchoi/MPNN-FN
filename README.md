@@ -91,6 +91,19 @@ python -m train.peptides_func device 0 fractal.alpha_type vc metis.n_patches 32 
 # GatedGCN + FN_M
 python -m train.peptides_struct device 0 fractal.alpha_type sc metis.n_patches 32 model.gMHA_type MLPMixer model.gnn_type ResGatedGraphConv fractal.hpf True model.nlayer_gnn 4 model.nlayer_mlpmixer 2  model.hidden_size 128 fractal.alpha_init zero metis.num_hops 1 metis.drop_rate 0.2
 ```
+
+## Related Work from Our Group
+
+Our other work on message passing, over-smoothing, and over-squashing in GNNs:
+
+| Paper | Venue | Topic | Links |
+|---|---|---|---|
+| PANDA: Expanded Width-Aware Message Passing Beyond Rewiring | ICML 2024 | Over-squashing, width expansion for high-centrality nodes | [paper](https://arxiv.org/abs/2406.03671) · [code](https://github.com/jeongwhanchoi/PANDA) |
+| GREAD: Graph Neural Reaction-Diffusion Networks | ICML 2023 | Over-smoothing and heterophily, reaction-diffusion graph ODEs | [paper](https://arxiv.org/abs/2211.14208) · [code](https://github.com/jeongwhanchoi/GREAD) |
+| Graph Convolutions Enrich the Self-Attention in Transformers! | NeurIPS 2024 | Over-smoothing in Transformers, graph-filter-based self-attention | [paper](https://arxiv.org/abs/2312.04234) · [code](https://github.com/jeongwhanchoi/GFSA) |
+| PIORF: Physics-Informed Ollivier-Ricci Flow for Long-Range Interactions in Mesh Graph Neural Networks | ICLR 2025 | Over-squashing in mesh GNNs, curvature-based rewiring | [paper](https://arxiv.org/abs/2504.04052) |
+| Learning Posterior Predictive Distributions for Node Classification from Synthetic Graph Priors | ICLR 2026 | Graph prior-data fitted network (NodePFN) | [paper](https://openreview.net/forum?id=FmxRzlu0rT) · [code](https://github.com/jeongwhanchoi/NodePFN) |
+
 ## License
 
 This project is released under the [MIT License](LICENSE).
